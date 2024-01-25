@@ -1,7 +1,7 @@
 # Below is Backend block
 terraform {
   backend "s3" {
-    bucket = "code-sharing-bucket"
+    bucket = "akl2"
     key = "state.tfstate"
     region = "us-east-2"
     profile = "default"
