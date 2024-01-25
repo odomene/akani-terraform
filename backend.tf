@@ -3,8 +3,8 @@ terraform {
   backend "s3" {
     bucket = "code-sharing-bucket"
     key = "state.tfstate"
-    region = "us-west-2"
-    profile = "jespo"
+    region = "us-east-1"
+    profile = "default"
     dynamodb_table = "firstprojecttable"
   }
 }
