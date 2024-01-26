@@ -1,10 +1,10 @@
 # Below is Backend block
 terraform {
   backend "s3" {
-    bucket = "akl2"
+    bucket = "avinash-terraform-state"
     key = "state.tfstate"
-    region = "us-east-2"
-    profile = "default"
+    region = "us-west-2"
+    profile = "jespo"
     dynamodb_table = "firstprojecttable"
   }
 }

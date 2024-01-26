@@ -1,5 +1,5 @@
 ami_id = "ami-0cd3c7f72edd5b06d"
 instance_type = "t2.micro"
 name = "test"
-region = "us-east-2"
-profile = "default"
+region = "us-west-2"
+profile = "jespo"
